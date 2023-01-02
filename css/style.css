@@ -801,6 +801,7 @@ main {
 }
 
 .contacts__contacts-img-wrapper {
+  display: inline-block;
   width: 60px;
   height: 60px;
   background: #FFFFFF;
@@ -808,6 +809,11 @@ main {
   border-radius: 50%;
   position: relative;
 }
+
+.contacts__contacts-img-wrappe:hover {
+  box-shadow: 0px 12px 30px rgba(205, 209, 214, 0.9);
+}
+
 
 .contacts__contacts-img-wrapper img{
   position: absolute;
@@ -820,5 +826,70 @@ main {
   margin-top: 30px;
 }
 
-.communication {
+.contacts__contacts-subscrube {
+}
+.contacts__label {
+
+}
+.input-email {
+  padding: 20px 30px;
+  width: 413px;
+  background: #FFFFFF;
+  box-shadow: 0px 12px 30px rgba(205, 209, 214, 0.28);
+  border-radius: 65px;
+}
+
+.input-email::placeholder{
+  transform: translateY(5px);
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.36;
+  color: #64646A;
+  opacity: 0.7;
+}
+
+.subscrube__button {
+  display: block;
+  margin-top: 30px;
+
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.67;
+  text-transform: uppercase;
+  color: #FFFFFF;
+
+  padding: 20px 40px;
+  background-color: #1B1B1D;
+  border-radius: 126px;
+  border: none;
+  outline: none;
+
+  cursor: pointer;
+}
+
+.subscrube__button:hover {
+  background: #55555a;
+}
+
+.subscrube__button:active {
+  position: relative;
+  top: 1px;
+}
+
+/* footer */
+/* footer */
+/* footer */
+
+.footer {
+}
+
+.footer__row {
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #1B1B1D;
+}
+
+.footer__block-links {
 }
